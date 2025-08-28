@@ -4,7 +4,7 @@ servirces:
    imagen: nginx:lastest
    contarteiner_name: nginx-web-jackeline
     ports:
-     - "8086:80"
+     - "8081:80"
     volumes:
       - ../web:/usr/share/nginx/html:ro
     restart: unless-stopped   
